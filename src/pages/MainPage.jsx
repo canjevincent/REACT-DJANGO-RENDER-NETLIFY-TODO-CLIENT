@@ -15,7 +15,7 @@ const MainPage = () => {
     setIsLoading(true);
 
     try{
-      const response = await axios.get("http://localhost:8000/item/item-data-api");
+      const response = await axios.get("https://django-react-render-netlify-server-app.onrender.com/item/item-data-api");
       console.log(response.data.item_data);
       setData(response.data.item_data);
       setIsLoading(false);
@@ -82,7 +82,7 @@ const MainPage = () => {
     
     setDeleteModalVisible(true)
 
-    axios.get(`http://localhost:8000/item/item-data-update-api`, {
+    axios.get(`https://django-react-render-netlify-server-app.onrender.com/item/item-data-update-api`, {
       params: {
         id: id
       }
