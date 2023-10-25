@@ -24,7 +24,7 @@ const DeletePage = ({ deleteModalVisible, setDeleteModalVisible, formDelete_data
 
     setFormDelete_error({ formDelete_loading:true })
 
-    axios.delete(`http://localhost:8000/item/item-data-update-api`, {
+    axios.delete(`https://django-react-render-netlify-server-app.onrender.com/item/item-data-update-api`, {
       data: {
         id:formDelete_data.id
       }
