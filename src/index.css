@@ -1,0 +1,55 @@
+:root {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #f5f5f5 ;
+}
+
+.app__header__form{
+  padding-top: 10%;
+}
+
+.app__footer__form{
+  text-align: center;
+}
+
+.app__bg__form {
+  margin-top: 10px;
+  padding: 24px;
+  border-radius: 10px;
+  background: white;
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,0.2);
+  max-width: 1200px;
+  margin:auto;
+}
+
+.app__btn__clear {
+  margin-right: 10px !important;
+  border-radius: 5px !important;
+}
+
+.app__btn__save {
+  border-radius: 5px !important;
+}
+
+.app__btn__main {
+  border-radius: 10px !important;
+  width: 100%;
+  max-width: 1200px;
+  margin: 20px 0 20px 0;
+}
+
+.app_link_btn_main{
+  text-align: center;
+  display: block;
+}
+
+.app_p_danger{
+  color:red;
+}
