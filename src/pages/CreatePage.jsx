@@ -35,7 +35,7 @@ const CreatePage = () => {
     setCreateFormLoading(true)
 
     await axios
-      .post("http://localhost:8000/item/item-data-api", {
+      .post("https://django-react-render-netlify-server-app.onrender.com/item/item-data-api", {
         description:formCreate_data.description,
       })
       .then(response => {
