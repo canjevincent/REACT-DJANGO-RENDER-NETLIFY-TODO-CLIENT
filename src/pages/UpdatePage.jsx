@@ -39,7 +39,7 @@ const UpdatePage = () => {
     setUpdateFormLoading(true);
 
     try{
-      const response = await axios.get(`http://localhost:8000/item/item-data-update-api`,{
+      const response = await axios.get(`https://django-react-render-netlify-server-app.onrender.com/item/item-data-update-api`,{
         params:{
           id:id
         }
@@ -71,7 +71,7 @@ const UpdatePage = () => {
     setUpdateFormLoading(true)
 
     await axios
-      .put(`http://localhost:8000/item/item-data-update-api`, {
+      .put(`https://django-react-render-netlify-server-app.onrender.com/item/item-data-update-api`, {
         id:formUpdate_data.id,
         description:formUpdate_data.description,
       })
