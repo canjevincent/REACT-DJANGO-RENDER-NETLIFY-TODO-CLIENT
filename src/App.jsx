@@ -20,7 +20,7 @@ const App = () => {
             </Routes>
         </Content>
         <Footer className="app__footer__form">
-          <Text strong>Powered By © React Js - Django Rest Framework - AWS - Netlify</Text>
+          <Text strong>Powered By © React Js - Django Rest Framework - Render - Netlify</Text>
         </Footer>
     </Layout>
   )
